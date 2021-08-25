@@ -1,0 +1,142 @@
+%装在门框上，统计人员进出
+% otsu阈值分离背景。grideye传感器越远温度越低实验。人体区域过大提升阈值温度
+@inproceedings{firstflow,
+  title={Measuring people-flow through doorways using easy-to-install ir array sensors},
+  author={Mohammadmoradi, Hessam and Munir, Sirajum and Gnawali, Omprakash and Shelton, Charles},
+  booktitle={2017 13th International Conference on Distributed Computing in Sensor Systems (DCOSS)},
+  pages={35--43},
+  year={2017},
+  organization={IEEE}
+}
+@article{mika,
+  title={Low-Resolution IR-Array as a Doorway Occupancy Counter in a Smart Building.},
+  author={Maaspuro, Mika},
+  journal={International Journal of Online \& Biomedical Engineering},
+  volume={16},
+  number={6},
+  year={2020}
+}
+
+%检测人并定位
+%顶上.提取特征后扔到 -> KNN, 线性回归，神经网络中
+@inproceedings{thermosense,
+  title={Thermosense: Occupancy thermal based sensing for hvac control},
+  author={Beltran, Alex and Erickson, Varick L and Cerpa, Alberto E},
+  booktitle={Proceedings of the 5th ACM Workshop on Embedded Systems For Energy-Efficient Buildings},
+  pages={1--8},
+  year={2013}
+}
+% thermosense的后续研究，多加了一个特征
+@article{basu2015tracking,
+  title={Tracking motion and proxemics using thermal-sensor array},
+  author={Basu, Chandrayee and Rowe, Anthony},
+  journal={arXiv preprint arXiv:1511.08166},
+  year={2015}
+}
+%侧面3个180度
+@inproceedings{multi,
+  title={Multi Low-resolution Infrared Sensor Setup for Privacy-preserving Unobtrusive Indoor Localization.},
+  author={Kowalski, Christian and Blohm, Kolja and Weiss, Sebastian and Pfingsthorn, Max and Gliesche, Pascal and Hein, Andreas},
+  booktitle={ICT4AWE},
+  pages={183--188},
+  year={2019}
+}
+%侧面
+@inproceedings{karayaneva2018use,
+  title={Use of low-resolution infrared pixel array for passive human motion movement and recognition},
+  author={Karayaneva, Yordanka and Baker, Samuel and Tan, Bo and Jing, Yanguo},
+  booktitle={Proceedings of the 32nd International BCS Human Computer Interaction Conference 32},
+  pages={1--2},
+  year={2018}
+}
+
+%仅检测算法
+@inproceedings{mashiyama2015activity,
+  title={Activity recognition using low resolution infrared array sensor},
+  author={Mashiyama, Shota and Hong, Jihoon and Ohtsuki, Tomoaki},
+  booktitle={2015 IEEE International Conference on Communications (ICC)},
+  pages={495--500},
+  year={2015},
+  organization={IEEE}
+}
+@article{trofimova2017indoor,
+  title={Indoor human detection based on thermal array sensor data and adaptive background estimation},
+  author={Trofimova, Anna A and Masciadri, Andrea and Veronese, Fabio and Salice, Fabio and others},
+  journal={Journal of Computer and Communications},
+  volume={5},
+  number={04},
+  pages={16},
+  year={2017},
+  publisher={Scientific Research Publishing}
+}
+% 厨房。镜头校畸
+@article{gonzalez2013using,
+  title={Using a thermopile matrix sensor to recognize energy-related activities in offices},
+  author={Gonzalez, Luis Ignacio Lopera and Troost, Marc and Amft, Oliver},
+  journal={Procedia Computer Science},
+  volume={19},
+  pages={678--685},
+  year={2013},
+  publisher={Elsevier}
+}
+%韩国，概率 %基于背景学习，站立姿态
+@inproceedings{jeong2014probabilistic,
+  title={Probabilistic method to determine human subjects for low-resolution thermal imaging sensor},
+  author={Jeong, Yongwoo and Yoon, Kwanwoo and Joung, KyoungHo},
+  booktitle={2014 IEEE Sensors Applications Symposium (SAS)},
+  pages={97--102},
+  year={2014},
+  organization={IEEE}
+}
+%用最近邻和热量来跟踪。融合的多个物体用virtual track跟踪。镜头校畸
+@article{virtualtrack,
+  title={Indoor multiple human targets localization and tracking using thermopile sensor},
+  author={Qu, Dongning and Yang, Bo and Gu, Nanhao},
+  journal={Infrared Physics \& Technology},
+  volume={97},
+  pages={349--359},
+  year={2019},
+  publisher={Elsevier}
+}
+
+
+@manual{grideye_datasheet,
+  title={White paper: Grid-eye state of the art thermal imaging solution},
+  author={Panasonic},
+  year={2016 (accessed 2021-04)},
+}
+% melexis 32x24相机
+@inproceedings{melexis,
+  title={Low-resolution overhead thermal tripwire for occupancy estimation},
+  author={Cokbas, Mertcan and Ishwar, Prakash and Konrad, Janusz},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},
+  pages={88--89},
+  year={2020}
+}
+@article{IRTAS16x4,
+  title={Occupancy estimation using a low-pixel count thermal imager},
+  author={Tyndall, Ash and Cardell-Oliver, Rachel and Keating, Adrian},
+  journal={IEEE Sensors Journal},
+  volume={16},
+  number={10},
+  pages={3784--3791},
+  year={2016},
+  publisher={IEEE}
+}
+
+@article{backgroundsubsurvey,
+  title={A survey on different background subtraction method for moving object detection},
+  author={Devi, R Bidyalakshmi and Chanu, Y Jina and Singh, Kh Manglem},
+  journal={International journal for research in emerging science and technology},
+  volume={3},
+  number={10},
+  year={2016}
+}
+
+@online{opencvBackgroundSub,
+  author = {OpenCV Tutorial},
+  title = {How to Use Background Subtraction Methods},
+  year = 2021,
+  url = {https://docs.opencv.org/3.4/d1/dc5/tutorial_background_subtraction.html},
+  urldate = {2021-8-23}
+}
