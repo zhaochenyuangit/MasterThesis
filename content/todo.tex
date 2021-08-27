@@ -1,10 +1,3 @@
-\chapter{Tracking Algorithm}\label{ch:algorithm}
-The IR-camera should be capable of detecting human objects in a relative large range of temperature, because the detected temperature of human body depends heavily on the wearing clothes and individual body condition. The detector should be sensitive to detect a human that is slightly hotter than ambient environment. Meanwhile, fluctuation of the environment temperature should be taken as a reference carefully. A pixel value that is just above the ambient temperature in a cool morning would be regarded as active, but a same value would probably be a noise reading in the afternoon of the same day.
-Moreover, the camera should be installed on the top of a doorframe or on the ceiling of a corridor, facing towards the ground. By this way the size of the monitored person is invariant with respect to the position in the frame, which cuts down the complexity of the following tracking procedure.
 
-The human body tracker should work properly in single human events, as well as more complicated events when multiple people interact with the door, including but not limited to: two people traversing parallel, traversing sequential but with a narrow distance, traversing in opposite direction, or one person standing still and another pass by. The tracker should not assume that the detected pixel blobs are separated perfectly, and should be able to track two once separate blobs when they merge, as well as assign the correct labels when they split.
-\section{Blob Detection}
-\section{Feature Extraction}
-\section{Human Object Tracking}
 
 \chapter{Evaluation} \label{ch:evaluation}

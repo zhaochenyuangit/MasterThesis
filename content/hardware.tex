@@ -1,5 +1,5 @@
 \chapter{Problem Statement and Hardware Selecting} \label{ch:hardware}
-We want to develop a low-cost, easy to install doorway human counter device for room occupancy estimation. The main component of the device is a low-resolution thermal camera to guarantee privacy protection as well as detection of static human being. Relative counting is done by tracking the human object passing through the doorway and determine whether it is an entering or exiting event. Final occupancy estimation of a room could be obtained by accumulating all relative counts of a device, or several devices, in case of a room with multiple entrances.
+We want to develop a low-cost, easy to install doorway human counter device for room occupancy estimation. The main component of the device is a low-resolution thermal camera to guarantee privacy protection as well as detection of static human being. Relative counting is done by tracking the human object passing through the doorway and determine whether it is an entering or exiting event. Final occupancy estimation of a room could be obtained by accumulating all relative counts of a device, or several devices, in case of a room with multiple entrances. Moreover, the camera should be installed on the top of a doorframe or on the ceiling of a corridor, facing towards the ground. By this way the size of the monitored person is invariant with respect to the position in the frame, which cuts down the complexity of the tracking procedure.
 
 The captured image frames should be sent to a microprocessor where the detector and tracker algorithms are implemented. When a frame sequence terminates and the relative count is obtained, this count value should be transferred to a data centralization platform for further processing and long term storage. The data transfer should be wireless to ensure easy installation of the device. We want to keep the device design as simple as possible with minimal components. A Wifi-MCU (micro-controller unit) would be an ideal choice because no other radio components are needed.
 \section{Infrared Camera}
@@ -29,7 +29,7 @@ The hardware limits of the AMG8833 have been discussed by many researchers.
 \begin{figure}
   \centering
   \includegraphics[width=0.6\textwidth]{figures/grideye_detectionarea.PNG}
-  \caption{Detection area of each pixels of the Grideye sensor}\label{fig:grideyedetectionarea}
+  \caption{Detection area of each pixels of the Grideye sensor. Credit: \cite{grideye_datasheet}}\label{fig:grideyedetectionarea}
 \end{figure}
 \begin{equation}\label{eq:brownscorrection}
   r_c = r_u + K_1r_u^3+K_2r_u^5
@@ -62,7 +62,7 @@ RAM             & 520KB            & -
 \end{table}
 \begin{figure}
   \centering
-  \includegraphics[width=0.8\textwidth]{figures/ESP32diagram.PNG}
+  \includegraphics[width=0.5\textwidth]{figures/ESP32diagram.PNG}
   \caption{Functional block diagram of ESP32 chip}\label{fig:ESP32diagram}
 \end{figure}
 
