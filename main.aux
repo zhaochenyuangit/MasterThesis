@@ -346,6 +346,7 @@
 \@writefile{loa}{\defcounter {refsection}{0}\relax }\@writefile{loa}{\addvspace {10\p@ }}
 \newlabel{ch:algorithm}{{5}{20}{Proposed Algorithm}{chapter.5}{}}
 \@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.1}Blob Detection}{20}{section.5.1}\protected@file@percent }
+\newlabel{sec:detect}{{5.1}{20}{Blob Detection}{section.5.1}{}}
 \@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}active pixel detection}{20}{subsection.5.1.1}\protected@file@percent }
 \BKM@entry{id=21,dest={73756273656374696F6E2E352E312E32},srcline={13}}{74686520626173656C696E6520666F726D756C61}
 \citation{virtualtrack}
@@ -385,50 +386,80 @@
 \@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces The basic idea of a summed-area table. Credit: \cite {summedareatableimage}}}{25}{figure.5.5}\protected@file@percent }
 \newlabel{fig:summedareatable}{{5.5}{25}{The basic idea of a summed-area table. Credit: \cite {summedareatableimage}}{figure.5.5}{}}
 \@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.4}filling holes}{25}{subsection.5.1.4}\protected@file@percent }
-\BKM@entry{id=24,dest={73656374696F6E2E352E32},srcline={75}}{48756D616E204F626A65637420547261636B696E67}
-\BKM@entry{id=25,dest={73656374696F6E2E352E33},srcline={1}}{466561747572652045787472616374696F6E}
+\BKM@entry{id=24,dest={73656374696F6E2E352E32},srcline={1}}{466561747572652045787472616374696F6E}
 \@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Two incorrect detection caused by hair isolation. The former could be fixed in detection layer, but the latter is left for tracking layer.}}{26}{figure.5.6}\protected@file@percent }
 \newlabel{fig:detectionhole}{{5.6}{26}{Two incorrect detection caused by hair isolation. The former could be fixed in detection layer, but the latter is left for tracking layer}{figure.5.6}{}}
 \citation{sharma2012blob}
 \abx@aux@cite{sharma2012blob}
 \abx@aux@segm{0}{0}{sharma2012blob}
-\BKM@entry{id=26,dest={73756273656374696F6E2E352E332E31},srcline={18}}{696E74726F64756374696F6E206F662064697374616E6365207472616E73666F726D}
+\BKM@entry{id=25,dest={73756273656374696F6E2E352E322E31},srcline={18}}{696E74726F64756374696F6E206F662064697374616E6365207472616E73666F726D}
 \citation{bailey2004efficient}
 \abx@aux@cite{bailey2004efficient}
 \abx@aux@segm{0}{0}{bailey2004efficient}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.2}Human Object Tracking}{27}{section.5.2}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.3}Feature Extraction}{27}{section.5.3}\protected@file@percent }
-\newlabel{eq:blobdenote1}{{5.2}{27}{Feature Extraction}{equation.5.3.2}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}introduction of distance transform}{27}{subsection.5.3.1}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.2}Feature Extraction}{27}{section.5.2}\protected@file@percent }
+\newlabel{sec:featureextract}{{5.2}{27}{Feature Extraction}{section.5.2}{}}
+\newlabel{eq:blobdenote1}{{5.2}{27}{Feature Extraction}{equation.5.2.2}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}introduction of distance transform}{27}{subsection.5.2.1}\protected@file@percent }
+\newlabel{eq:distancetransform}{{5.3}{27}{introduction of distance transform}{equation.5.2.3}{}}
 \@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces An example frame sequence showing the blob merging issue. Left column is the interpolated image, middle column is the blob masks and right column shows the extracted feature. The star symbol represents the centroid location and the size of the start represents the size of the blob. Other round dots scattered inside the blob represent central points.}}{28}{figure.5.7}\protected@file@percent }
 \newlabel{fig:blobmerge}{{5.7}{28}{An example frame sequence showing the blob merging issue. Left column is the interpolated image, middle column is the blob masks and right column shows the extracted feature. The star symbol represents the centroid location and the size of the start represents the size of the blob. Other round dots scattered inside the blob represent central points}{figure.5.7}{}}
 \citation{butt1998optimum}
 \abx@aux@cite{butt1998optimum}
 \abx@aux@segm{0}{0}{butt1998optimum}
-\BKM@entry{id=27,dest={73756273656374696F6E2E352E332E32},srcline={51}}{6C6F63616C206D6178696D6120696E20612064697374616E6365207472616E73666F726D}
-\BKM@entry{id=28,dest={73756273656374696F6E2E352E332E33},srcline={53}}{63656E7472616C20706F696E7473202D20616E20696E666F726D617469766520616E6420737461626C6520726570726573656E746174696F6E}
-\@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Distance increment of two pass respectively for a $3\times 3$ window.}}{29}{table.5.1}\protected@file@percent }
-\newlabel{tab:chamfertable}{{5.1}{29}{Distance increment of two pass respectively for a $3\times 3$ window}{table.5.1}{}}
-\newlabel{eq:distancetransform}{{5.3}{29}{introduction of distance transform}{equation.5.3.3}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}local maxima in a distance transform}{29}{subsection.5.3.2}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.3}central points - an informative and stable representation}{29}{subsection.5.3.3}\protected@file@percent }
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces mask recover}}{30}{figure.5.8}\protected@file@percent }
-\newlabel{fig:maskrecover}{{5.8}{30}{mask recover}{figure.5.8}{}}
+\BKM@entry{id=26,dest={73756273656374696F6E2E352E322E32},srcline={57}}{6C6F63616C206D6178696D6120696E20612064697374616E6365207472616E73666F726D}
+\newlabel{eq:chamferDT}{{5.4}{29}{introduction of distance transform}{equation.5.2.4}{}}
+\citation{sharma2012blob}
+\abx@aux@cite{sharma2012blob}
+\abx@aux@segm{0}{0}{sharma2012blob}
+\citation{sharma2012blob}
+\abx@aux@cite{sharma2012blob}
+\abx@aux@segm{0}{0}{sharma2012blob}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}local maxima in a distance transform}{30}{subsection.5.2.2}\protected@file@percent }
+\newlabel{eq:laplacian}{{5.6}{30}{local maxima in a distance transform}{equation.5.2.6}{}}
+\BKM@entry{id=27,dest={73756273656374696F6E2E352E322E33},srcline={92}}{63656E7472616C20706F696E7473202D20616E20696E666F726D617469766520616E6420737461626C6520726570726573656E746174696F6E}
+\newlabel{eq:filterkernel}{{5.7}{31}{local maxima in a distance transform}{equation.5.2.7}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}central points - an informative and stable representation}{31}{subsection.5.2.3}\protected@file@percent }
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces The first two columns show the original mask and its distance transform result. In the second column, a brighter pixel indicates a higher distance to the background. The third column shows the central points extracted by a edge detector. The fourth column shows central points found by a percentage filter ($> 80\%$) of the highest distance value.}}{32}{figure.5.8}\protected@file@percent }
+\newlabel{fig:DTafterfilter}{{5.8}{32}{The first two columns show the original mask and its distance transform result. In the second column, a brighter pixel indicates a higher distance to the background. The third column shows the central points extracted by a edge detector. The fourth column shows central points found by a percentage filter ($> 80\%$) of the highest distance value}{figure.5.8}{}}
+\citation{lee1996chessboard}
+\abx@aux@cite{lee1996chessboard}
+\abx@aux@segm{0}{0}{lee1996chessboard}
+\citation{attali2009stability}
+\abx@aux@cite{attali2009stability}
+\abx@aux@segm{0}{0}{attali2009stability}
+\citation{attali2009stability}
+\abx@aux@cite{attali2009stability}
+\abx@aux@segm{0}{0}{attali2009stability}
+\citation{zhang1984fast}
+\abx@aux@cite{zhang1984fast}
+\abx@aux@segm{0}{0}{zhang1984fast}
+\citation{zhang1984fast}
+\abx@aux@cite{zhang1984fast}
+\abx@aux@segm{0}{0}{zhang1984fast}
+\BKM@entry{id=28,dest={73656374696F6E2E352E33},srcline={1}}{48756D616E204F626A65637420547261636B696E67}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces Mask recovery from the central points shows most of the shape information is preserved}}{33}{figure.5.9}\protected@file@percent }
+\newlabel{fig:maskrecover}{{5.9}{33}{Mask recovery from the central points shows most of the shape information is preserved}{figure.5.9}{}}
+\newlabel{eq:blobdenote2}{{5.8}{33}{central points - an informative and stable representation}{equation.5.2.8}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.3}Human Object Tracking}{33}{section.5.3}\protected@file@percent }
+\newlabel{sec:track}{{5.3}{33}{Human Object Tracking}{section.5.3}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.10}{\ignorespaces The first column shows the set of central points, the second column is the medial axis of the same binary mask. The third column shows result of another thinning algorithm by \cite {zhang1984fast}.}}{34}{figure.5.10}\protected@file@percent }
+\newlabel{fig:medialaxisandcentral}{{5.10}{34}{The first column shows the set of central points, the second column is the medial axis of the same binary mask. The third column shows result of another thinning algorithm by \cite {zhang1984fast}}{figure.5.10}{}}
 \BKM@entry{id=29,dest={636861707465722E36},srcline={3}}{4576616C756174696F6E}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\numberline {6}Evaluation}{31}{chapter.6}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\numberline {6}Evaluation}{35}{chapter.6}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\defcounter {refsection}{0}\relax }\@writefile{loa}{\addvspace {10\p@ }}
-\newlabel{ch:evaluation}{{6}{31}{Evaluation}{chapter.6}{}}
-\BKM@entry{id=30,dest={636861707465722A2E33},srcline={35}}{4C697374206F662046696775726573}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\nonumberline List of Figures}{32}{chapter*.3}\protected@file@percent }
-\BKM@entry{id=31,dest={636861707465722A2E34},srcline={36}}{4C697374206F66205461626C6573}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\nonumberline List of Tables}{34}{chapter*.4}\protected@file@percent }
-\BKM@entry{id=32,dest={636861707465722A2E35},srcline={37}}{4269626C696F677261706879}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\nonumberline Bibliography}{35}{chapter*.5}\protected@file@percent }
+\newlabel{ch:evaluation}{{6}{35}{Evaluation}{chapter.6}{}}
+\BKM@entry{id=30,dest={636861707465722A2E33},srcline={36}}{4C697374206F662046696775726573}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\nonumberline List of Figures}{36}{chapter*.3}\protected@file@percent }
+\BKM@entry{id=31,dest={636861707465722A2E34},srcline={37}}{4C697374206F66205461626C6573}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\nonumberline List of Tables}{38}{chapter*.4}\protected@file@percent }
+\BKM@entry{id=32,dest={636861707465722A2E35},srcline={38}}{4269626C696F677261706879}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\nonumberline Bibliography}{39}{chapter*.5}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\defcounter {refsection}{0}\relax }\@writefile{loa}{\addvspace {10\p@ }}
+\abx@aux@refcontextdefaultsdone
 \abx@aux@defaultrefcontext{0}{humansense2010survey}{none/global//global/global}
 \abx@aux@defaultrefcontext{0}{ultrasonic2012doorjamb}{none/global//global/global}
 \abx@aux@defaultrefcontext{0}{microphone}{none/global//global/global}
@@ -468,6 +499,9 @@
 \abx@aux@defaultrefcontext{0}{sharma2012blob}{none/global//global/global}
 \abx@aux@defaultrefcontext{0}{bailey2004efficient}{none/global//global/global}
 \abx@aux@defaultrefcontext{0}{butt1998optimum}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{lee1996chessboard}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{attali2009stability}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{zhang1984fast}{none/global//global/global}
 \abx@aux@defaultlabelprefix{0}{humansense2010survey}{}
 \abx@aux@defaultlabelprefix{0}{ultrasonic2012doorjamb}{}
 \abx@aux@defaultlabelprefix{0}{microphone}{}
@@ -507,12 +541,15 @@
 \abx@aux@defaultlabelprefix{0}{sharma2012blob}{}
 \abx@aux@defaultlabelprefix{0}{bailey2004efficient}{}
 \abx@aux@defaultlabelprefix{0}{butt1998optimum}{}
+\abx@aux@defaultlabelprefix{0}{lee1996chessboard}{}
+\abx@aux@defaultlabelprefix{0}{attali2009stability}{}
+\abx@aux@defaultlabelprefix{0}{zhang1984fast}{}
 \global\@namedef{scr@dte@chapter@lastmaxnumwidth}{9.85492pt}
 \global\@namedef{scr@dte@section@lastmaxnumwidth}{18.0674pt}
 \global\@namedef{scr@dte@subsection@lastmaxnumwidth}{26.27988pt}
 \global\@namedef{scr@dte@table@lastmaxnumwidth}{18.0674pt}
-\global\@namedef{scr@dte@figure@lastmaxnumwidth}{18.0674pt}
+\global\@namedef{scr@dte@figure@lastmaxnumwidth}{23.54239pt}
 \@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\providecommand\tocbasic@end@toc@file{}\tocbasic@end@toc@file}
 \@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\providecommand\tocbasic@end@toc@file{}\tocbasic@end@toc@file}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\providecommand\tocbasic@end@toc@file{}\tocbasic@end@toc@file}
-\gdef \@abspage@last{45}
+\gdef \@abspage@last{49}

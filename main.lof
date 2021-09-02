@@ -47,7 +47,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.7}{\ignorespaces An example frame sequence showing the blob merging issue. Left column is the interpolated image, middle column is the blob masks and right column shows the extracted feature. The star symbol represents the centroid location and the size of the start represents the size of the blob. Other round dots scattered inside the blob represent central points.}}{28}{figure.5.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.8}{\ignorespaces mask recover}}{30}{figure.5.8}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces The first two columns show the original mask and its distance transform result. In the second column, a brighter pixel indicates a higher distance to the background. The third column shows the central points extracted by a edge detector. The fourth column shows central points found by a percentage filter ($> 80\%$) of the highest distance value.}}{32}{figure.5.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Mask recovery from the central points shows most of the shape information is preserved}}{33}{figure.5.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.10}{\ignorespaces The first column shows the set of central points, the second column is the medial axis of the same binary mask. The third column shows result of another thinning algorithm by \cite {zhang1984fast}.}}{34}{figure.5.10}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

@@ -1271,5 +1271,102 @@
     \field{journaltitle}{IEEE Transactions on Image Processing}
     \field{year}{1998}
   \endentry
+
+  \entry{lee1996chessboard}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=LYH}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Yu-Hua},
+         giveni={Y\bibinithyphendelim H\bibinitperiod},
+      }}%
+      {{hash=HSJ}{%
+         family={Horng},
+         familyi={H\bibinitperiod},
+         given={Shi-Jinn},
+         giveni={S\bibinithyphendelim J\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{LYHHSJ1}
+    \strng{fullhash}{LYHHSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of International Conference on Parallel
+  Processing}
+    \field{pages}{424\bibrangedash 428}
+    \field{title}{The chessboard distance transform and the medial axis
+  transform are interchangeable}
+    \field{year}{1996}
+  \endentry
+
+  \entry{attali2009stability}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AD}{%
+         family={Attali},
+         familyi={A\bibinitperiod},
+         given={Dominique},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BJD}{%
+         family={Boissonnat},
+         familyi={B\bibinitperiod},
+         given={Jean-Daniel},
+         giveni={J\bibinithyphendelim D\bibinitperiod},
+      }}%
+      {{hash=EH}{%
+         family={Edelsbrunner},
+         familyi={E\bibinitperiod},
+         given={Herbert},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AD+1}
+    \strng{fullhash}{ADBJDEH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/b106657_6
+    \endverb
+    \field{isbn}{978-3-540-25076-0}
+    \field{title}{Stability and Computation of Medial Axes: a State-of-the-Art
+  Report}
+    \field{journaltitle}{Mathematical Foundations of Scientific Visualization,
+  Computer Graphics, and Massive Data Exploration}
+    \field{month}{01}
+    \field{year}{2009}
+  \endentry
+
+  \entry{zhang1984fast}{article}{}
+    \name{author}{2}{}{%
+      {{hash=ZTY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Tongjie\bibnamedelima Y},
+         giveni={T\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=SCY}{%
+         family={Suen},
+         familyi={S\bibinitperiod},
+         given={Ching\bibnamedelima Y.},
+         giveni={C\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM New York, NY, USA}%
+    }
+    \strng{namehash}{ZTYSCY1}
+    \strng{fullhash}{ZTYSCY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{236\bibrangedash 239}
+    \field{title}{A fast parallel algorithm for thinning digital patterns}
+    \field{volume}{27}
+    \field{journaltitle}{Communications of the ACM}
+    \field{year}{1984}
+  \endentry
 \enddatalist
 \endinput
