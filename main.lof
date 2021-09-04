@@ -53,6 +53,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.10}{\ignorespaces The first column shows the set of central points, the second column is the medial axis of the same binary mask. The third column shows result of another thinning algorithm by \cite {zhang1984fast}.}}{34}{figure.5.10}%
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.11}{\ignorespaces A track example. The blue dot shows the estimated position, the quiver from the blue dot points the velocity direction of the object and the yellow triangle shows the predicted position one time step forward.}}{37}{figure.5.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.12}{\ignorespaces A track example (same sequence as \autoref {fig:blobmerge}) until two blobs merged and the central point matching is activated. The pixel dots represent the central points. The round markers are the estimated object location, triangle markers are prediction, and cross markers are measurements. Blob contour is omitted for a clear demonstration.}}{38}{figure.5.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.13}{\ignorespaces A track example (same sequence as \autoref {fig:blobmerge}, continued from \autoref {fig:trackexample2}) after the merge event. The tracking algorithm successfully handle the merging blobs correctly and continue tracking with centroids.}}{39}{figure.5.13}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.16)  2 SEP 2021 10:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.16)  4 SEP 2021 17:18
 entering extended mode
 **./main.tex
 (main.tex
@@ -1093,7 +1093,7 @@ l.8
 
 
 ]
-<figures/cornercases.PNG, id=133, 565.51276pt x 389.0535pt>
+<figures/cornercases.PNG, id=139, 565.51276pt x 389.0535pt>
 File: figures/cornercases.PNG Graphic file (type png)
 <use figures/cornercases.PNG>
 Package pdftex.def Info: figures/cornercases.PNG  used on input line 16.
@@ -1109,7 +1109,7 @@ chapter 2.
 
 
 ]
-<figures/Background_Subtraction.png, id=193, 356.0803pt x 188.20313pt>
+<figures/Background_Subtraction.png, id=199, 356.0803pt x 188.20313pt>
 File: figures/Background_Subtraction.png Graphic file (type png)
 <use figures/Background_Subtraction.png>
 Package pdftex.def Info: figures/Background_Subtraction.png  used on input line
@@ -1122,14 +1122,14 @@ Package pdftex.def Info: figures/Background_Subtraction.png  used on input line
 l.46 T
       he dynamic background learning method will dissolve an object that doe...
  <./figures/Background_Subtraction.png>]
-<figures/Object-representations.png, id=227, 610.28pt x 398.48875pt>
+<figures/Object-representations.png, id=233, 610.28pt x 398.48875pt>
 File: figures/Object-representations.png Graphic file (type png)
 <use figures/Object-representations.png>
 Package pdftex.def Info: figures/Object-representations.png  used on input line
  54.
 (pdftex.def)             Requested size: 334.60571pt x 218.48848pt.
  [7]
-<figures/virtualpath.PNG, id=246, 473.3685pt x 483.0045pt>
+<figures/virtualpath.PNG, id=252, 473.3685pt x 483.0045pt>
 File: figures/virtualpath.PNG Graphic file (type png)
 <use figures/virtualpath.PNG>
 Package pdftex.def Info: figures/virtualpath.PNG  used on input line 69.
@@ -1160,7 +1160,7 @@ File: ts1pplx.fd 2004/09/06 font definitions for TS1/pplx.
 
 
 ]
-<figures/grideye_detectionarea.PNG, id=272, 524.55975pt x 517.935pt>
+<figures/grideye_detectionarea.PNG, id=278, 524.55975pt x 517.935pt>
 File: figures/grideye_detectionarea.PNG Graphic file (type png)
 <use figures/grideye_detectionarea.PNG>
 Package pdftex.def Info: figures/grideye_detectionarea.PNG  used on input line 
@@ -1177,7 +1177,7 @@ ame identifier (name{figure.3.1}) has been already used, duplicate ignored
                                                   
 l.47 
       <./figures/grideye_detectionarea.PNG>]
-<figures/ESP32diagram.PNG, id=301, 536.0025pt x 482.40225pt>
+<figures/ESP32diagram.PNG, id=307, 536.0025pt x 482.40225pt>
 File: figures/ESP32diagram.PNG Graphic file (type png)
 <use figures/ESP32diagram.PNG>
 Package pdftex.def Info: figures/ESP32diagram.PNG  used on input line 65.
@@ -1194,17 +1194,17 @@ l.71
 l.71 
       <./figures/ESP32diagram.PNG>]) (content/platform.tex [14]
 chapter 4.
-<figures/mqtt.png, id=313, 379.4175pt x 228.855pt>
+<figures/mqtt.png, id=319, 379.4175pt x 228.855pt>
 File: figures/mqtt.png Graphic file (type png)
 <use figures/mqtt.png>
 Package pdftex.def Info: figures/mqtt.png  used on input line 11.
 (pdftex.def)             Requested size: 250.95587pt x 151.373pt.
-<figures/noderedflow.PNG, id=316, 483.2454pt x 516.0078pt>
+<figures/noderedflow.PNG, id=322, 483.2454pt x 516.0078pt>
 File: figures/noderedflow.PNG Graphic file (type png)
 <use figures/noderedflow.PNG>
 Package pdftex.def Info: figures/noderedflow.PNG  used on input line 18.
 (pdftex.def)             Requested size: 334.60571pt x 357.30554pt.
-<figures/noderedui.png, id=317, 721.7364pt x 429.2838pt>
+<figures/noderedui.png, id=323, 721.7364pt x 429.2838pt>
 File: figures/noderedui.png Graphic file (type png)
 <use figures/noderedui.png>
 Package pdftex.def Info: figures/noderedui.png  used on input line 23.
@@ -1224,7 +1224,7 @@ dy used, duplicate ignored
                                                   
 l.32 \section
              {ElasticSearch and Kibana} <./figures/noderedflow.PNG>]
-<figures/ESKibana_overview.PNG, id=339, 654.0435pt x 324.61275pt>
+<figures/ESKibana_overview.PNG, id=345, 654.0435pt x 324.61275pt>
 File: figures/ESKibana_overview.PNG Graphic file (type png)
 <use figures/ESKibana_overview.PNG>
 Package pdftex.def Info: figures/ESKibana_overview.PNG  used on input line 38.
@@ -1264,7 +1264,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./figures/detect_interpolate-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<figures/detect_interpolate-eps-converted-to.pdf, id=362, 1084.05pt x 252.945pt
+<figures/detect_interpolate-eps-converted-to.pdf, id=368, 1084.05pt x 252.945pt
 >
 File: figures/detect_interpolate-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/detect_interpolate-eps-converted-to.pdf>
@@ -1294,7 +1294,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./figures/detect_spatialfilter-eps-converted
 -to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
 owed
-<figures/detect_spatialfilter-eps-converted-to.pdf, id=410, 867.24pt x 433.62pt
+<figures/detect_spatialfilter-eps-converted-to.pdf, id=416, 867.24pt x 433.62pt
 >
 File: figures/detect_spatialfilter-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1318,7 +1318,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./figures/detect_filterthres-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<figures/detect_filterthres-eps-converted-to.pdf, id=411, 722.7pt x 433.62pt>
+<figures/detect_filterthres-eps-converted-to.pdf, id=417, 722.7pt x 433.62pt>
 File: figures/detect_filterthres-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/detect_filterthres-eps-converted-to.pdf>
 Package pdftex.def Info: figures/detect_filterthres-eps-converted-to.pdf  used 
@@ -1339,7 +1339,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./figures/detect_compare-eps-converted-to.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/detect_compare-eps-converted-to.pdf, id=414, 867.24pt x 433.62pt>
+<figures/detect_compare-eps-converted-to.pdf, id=420, 867.24pt x 433.62pt>
 File: figures/detect_compare-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/detect_compare-eps-converted-to.pdf>
 Package pdftex.def Info: figures/detect_compare-eps-converted-to.pdf  used on i
@@ -1363,7 +1363,7 @@ used, duplicate ignored
                                                   
 l.52 
       <./figures/detect_compare-eps-converted-to.pdf>]
-<figures/summedareatable.png, id=517, 378.41376pt x 227.85126pt>
+<figures/summedareatable.png, id=523, 378.41376pt x 227.85126pt>
 File: figures/summedareatable.png Graphic file (type png)
 <use figures/summedareatable.png>
 Package pdftex.def Info: figures/summedareatable.png  used on input line 55.
@@ -1382,7 +1382,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./figures/detect_hole-eps-converted-to.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/detect_hole-eps-converted-to.pdf, id=521, 867.24pt x 433.62pt>
+<figures/detect_hole-eps-converted-to.pdf, id=527, 867.24pt x 433.62pt>
 File: figures/detect_hole-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/detect_hole-eps-converted-to.pdf>
 Package pdftex.def Info: figures/detect_hole-eps-converted-to.pdf  used on inpu
@@ -1416,7 +1416,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./figures/blobmerge-eps-converted-to.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/blobmerge-eps-converted-to.pdf, id=567, 650.43pt x 1084.05pt>
+<figures/blobmerge-eps-converted-to.pdf, id=573, 650.43pt x 1084.05pt>
 File: figures/blobmerge-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/blobmerge-eps-converted-to.pdf>
 Package pdftex.def Info: figures/blobmerge-eps-converted-to.pdf  used on input 
@@ -1449,7 +1449,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./figures/centralsbyfilter-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<figures/centralsbyfilter-eps-converted-to.pdf, id=651, 867.24pt x 505.89pt>
+<figures/centralsbyfilter-eps-converted-to.pdf, id=657, 867.24pt x 505.89pt>
 File: figures/centralsbyfilter-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/centralsbyfilter-eps-converted-to.pdf>
 Package pdftex.def Info: figures/centralsbyfilter-eps-converted-to.pdf  used on
@@ -1469,7 +1469,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./figures/maskrecover-eps-converted-to.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/maskrecover-eps-converted-to.pdf, id=653, 867.24pt x 361.35pt>
+<figures/maskrecover-eps-converted-to.pdf, id=659, 867.24pt x 361.35pt>
 File: figures/maskrecover-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/maskrecover-eps-converted-to.pdf>
 Package pdftex.def Info: figures/maskrecover-eps-converted-to.pdf  used on inpu
@@ -1497,53 +1497,338 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./figures/centralandmedial-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<figures/centralandmedial-eps-converted-to.pdf, id=703, 867.24pt x 433.62pt>
+<figures/centralandmedial-eps-converted-to.pdf, id=709, 867.24pt x 433.62pt>
 File: figures/centralandmedial-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/centralandmedial-eps-converted-to.pdf>
 Package pdftex.def Info: figures/centralandmedial-eps-converted-to.pdf  used on
  input line 111.
 (pdftex.def)             Requested size: 418.25555pt x 209.1277pt.
-) (content/algorithm3.tex) (content/todo.tex [33pdfTeX warning (ext4): destinat
-ion with the same identifier (name{figure.5.9}) has been already used, duplicat
-e ignored
+) (content/algorithm3.tex [33pdfTeX warning (ext4): destination with the same i
+dentifier (name{figure.5.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.3 \chapter
-            {Evaluation} \label{ch:evaluation} <./figures/maskrecover-eps-conve
-rted-to.pdf>] [34pdfTeX warning (ext4): destination with the same identifier (n
-ame{figure.5.10}) has been already used, duplicate ignored
+l.6   \item t
+             rack the blobs by their centroid as much as possible <./figures/ma
+skrecover-eps-converted-to.pdf>] [34pdfTeX warning (ext4): destination with the
+ same identifier (name{figure.5.10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.3 \chapter
-            {Evaluation} \label{ch:evaluation} <./figures/centralandmedial-eps-
-converted-to.pdf>]
+l.16 
+      <./figures/centralandmedial-eps-converted-to.pdf>]
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 38.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 38.
+
+
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 38.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 38.
+
+
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 38.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 38.
+
+
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 38.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 38.
+
+
+
+Package amsmath Warning: Cannot use `split' here;
+(amsmath)                trying to recover with `aligned' on input line 46.
+
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 46.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 46.
+
+
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 46.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 46.
+
+
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 46.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 46.
+
+
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 46.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 46.
+
+
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 46.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 46.
+
+
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 46.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 46.
+
+
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 46.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 46.
+
+
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 46.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 46.
+
+
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 46.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 46.
+
+
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 46.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 46.
+
+
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 46.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 46.
+
+
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 46.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 46.
+
+
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 46.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 46.
+
+
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 46.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 46.
+
+
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 46.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 46.
+
+
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 46.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 46.
+
+
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 46.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 46.
+
+
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 46.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 46.
+
+
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 46.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 46.
+
+
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 46.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 46.
+
+
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 46.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 46.
+
+
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 46.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 46.
+
+
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 46.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 46.
+
+
+[35pdfTeX warning (ext4): destination with the same identifier (name{table.5.1}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.48 \end{equation}
+                   ]
+Package epstopdf Info: Source file: <figures/trackexample1.eps>
+(epstopdf)                    date: 2021-09-04 15:16:06
+(epstopdf)                    size: 1177841 bytes
+(epstopdf)             Output file: <figures/trackexample1-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2021-09-04 15:16:36
+(epstopdf)                    size: 21208 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/trackexample1-eps-c
+onverted-to.pdf figures/trackexample1.eps>
+(epstopdf)             \includegraphics on input line 58.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./figures/trackexample1-eps-converted-to.pdf
+): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/trackexample1-eps-converted-to.pdf, id=799, 1084.05pt x 578.16pt>
+File: figures/trackexample1-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/trackexample1-eps-converted-to.pdf>
+Package pdftex.def Info: figures/trackexample1-eps-converted-to.pdf  used on in
+put line 58.
+(pdftex.def)             Requested size: 418.25555pt x 223.06425pt.
+Package epstopdf Info: Source file: <figures/trackexample2.eps>
+(epstopdf)                    date: 2021-09-04 16:55:13
+(epstopdf)                    size: 4080096 bytes
+(epstopdf)             Output file: <figures/trackexample2-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2021-09-04 17:13:51
+(epstopdf)                    size: 50723 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/trackexample2-eps-c
+onverted-to.pdf figures/trackexample2.eps>
+(epstopdf)             \includegraphics on input line 63.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./figures/trackexample2-eps-converted-to.pdf
+): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/trackexample2-eps-converted-to.pdf, id=800, 1084.05pt x 1084.05pt>
+File: figures/trackexample2-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/trackexample2-eps-converted-to.pdf>
+Package pdftex.def Info: figures/trackexample2-eps-converted-to.pdf  used on in
+put line 63.
+(pdftex.def)             Requested size: 418.25555pt x 418.2455pt.
+Package epstopdf Info: Source file: <figures/trackexample2_2.eps>
+(epstopdf)                    date: 2021-09-04 17:18:11
+(epstopdf)                    size: 4084572 bytes
+(epstopdf)             Output file: <figures/trackexample2_2-eps-converted-to.p
+df>
+(epstopdf)                    date: 2021-09-04 17:13:53
+(epstopdf)                    size: 56500 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/trackexample2_2-eps
+-converted-to.pdf figures/trackexample2_2.eps>
+(epstopdf)             \includegraphics on input line 68.
+runsystem(epstopdf --outfile=figures/trackexample2_2-eps-converted-to.pdf figur
+es/trackexample2_2.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <figures/trackexample2_2-eps-converted-to.p
+df>
+(epstopdf)                    date: 2021-09-04 17:18:58
+(epstopdf)                    size: 62987 bytes.
+
+
+pdfTeX warning: pdflatex.exe (file ./figures/trackexample2_2-eps-converted-to.p
+df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/trackexample2_2-eps-converted-to.pdf, id=803, 1084.05pt x 1084.05pt>
+File: figures/trackexample2_2-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/trackexample2_2-eps-converted-to.pdf>
+Package pdftex.def Info: figures/trackexample2_2-eps-converted-to.pdf  used on 
+input line 68.
+(pdftex.def)             Requested size: 418.25555pt x 418.2455pt.
+) (content/todo.tex [36] [37pdfTeX warning (ext4): destination with the same id
+entifier (name{figure.5.11}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.2 \chapter
+            {Evaluation} \label{ch:evaluation} <./figures/trackexample1-eps-con
+verted-to.pdf>] [38pdfTeX warning (ext4): destination with the same identifier 
+(name{figure.5.12}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.2 \chapter
+            {Evaluation} \label{ch:evaluation} <./figures/trackexample2-eps-con
+verted-to.pdf>] [39pdfTeX warning (ext4): destination with the same identifier 
+(name{figure.5.13}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.2 \chapter
+            {Evaluation} \label{ch:evaluation} <./figures/trackexample2_2-eps-c
+onverted-to.pdf>]
 chapter 6.
-) [35
+) [40
 
 
 ]
 Package tocbasic Info: character protrusion at lof deactivated on input line 36
 .
- (main.lof [36
+ (main.lof [41
 
 
 ])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [37]
+ [42]
 Package tocbasic Info: character protrusion at lot deactivated on input line 37
 .
  (main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [38
+ [43
 
 
 ]
 chapter without number
-[39
+[44
 
 
 ]
@@ -1559,9 +1844,9 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [40] [41]
+ [45] [46]
 No complaints by nag.
-[42] (main.aux)
+[47] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1569,11 +1854,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21194 strings out of 480236
- 386703 string characters out of 2890345
- 1115561 words of memory out of 3000000
- 36838 multiletter control sequences out of 15000+200000
- 592140 words of font info for 335 fonts, out of 3000000 for 9000
+ 21263 strings out of 480236
+ 388177 string characters out of 2890345
+ 1117132 words of memory out of 3000000
+ 36879 multiletter control sequences out of 15000+200000
+ 596220 words of font info for 347 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,16n,99p,10601b,2962s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Administrator\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
@@ -1586,9 +1871,9 @@ pfb><E:/Program Files/MiKTeX/fonts/type1/public/mathpazo/fplmri.pfb><E:/Program
  Files/MiKTeX/fonts/type1/public/fpl/fplrc8a.pfb><E:/Program Files/MiKTeX/fonts
 /type1/urw/palatino/uplb8a.pfb><E:/Program Files/MiKTeX/fonts/type1/urw/palatin
 o/uplr8a.pfb><E:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (49 pages, 2448661 bytes).
+Output written on main.pdf (54 pages, 2599523 bytes).
 PDF statistics:
- 1087 PDF objects out of 1200 (max. 8388607)
- 157 named destinations out of 1000 (max. 500000)
- 30058 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 1223 PDF objects out of 1440 (max. 8388607)
+ 175 named destinations out of 1000 (max. 500000)
+ 31633 words of extra memory for PDF output out of 35830 (max. 10000000)
 

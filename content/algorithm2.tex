@@ -100,12 +100,12 @@ Central points preserve most information about the original blob. If the distanc
 The above analyse shows that the central point representation is a stand-alone feature describer, and is independent of the centroid representation. However, because we cannot reduce the number of central points to a low level, the tracking algorithm must find the optimum candidate among all central points, which brings about extra computational cost and waste when blobs are not merged. Therefore, we describe the blobs by two representations (see \autoref{eq:blobdenote2}, $P$ is the coordinate of a central point and $D$ is its distance to the background). And would only switch to central points matching if the centroid matching fails. Details about matching would be elaborated in \autoref{sec:track}.
 \begin{equation}\label{eq:blobdenote2}
   \begin{split}
-        B = &\{C,S\} \\
+        B = &\{C,S\}; \\
         &\{(P_1,D_1),(P_2,D_2),\cdots,(P_n,D_n)\}
       \end{split}
 \end{equation}
 
-The cluster of central points looks like the ``spine'' of the original blob. This is not surprising because we visually examine the shape of the local maxima points in \autoref{fig:DTafterfilter}. Actually, the set of local maxima points in a distance transform are an approximation to the medial axis of a binary mask \cite{lee1996chessboard}, see \autoref{fig:medialaxisandcentral}. A medial axis of a $R^2$ shape is the set of points that have more than one closest point on the object's contour line. \citeauthor{attali2009stability} \cite{attali2009stability} have proved that for shape in $R^2$, fluctuation of the shape contour only effect part of the branches of the medial axis.
+The cluster of central points looks like the ``spine'' of the original blob. This is not surprising because we visually examine the shape of the local maxima points in \autoref{fig:DTafterfilter}. Actually, the set of local maxima points in a distance transform are an approximation to the medial axis of a binary mask \cite{lee1996chessboard}, see \autoref{fig:medialaxisandcentral}. A medial axis of a $R^2$ shape is the set of points that have more than one closest point on the object's contour line. \citeauthor{attali2009stability} \cite{attali2009stability} have proved that for shape in $R^2$, fluctuation of the shape contour only effect part of the branches of the medial axis. This partially explains why the central points stay stable by blob merging/ splitting.
 \begin{figure}
   \centering
   \includegraphics[width=\textwidth]{figures/centralandmedial.eps}
