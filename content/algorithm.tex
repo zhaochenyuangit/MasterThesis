@@ -6,7 +6,14 @@ The detector should be capable of detecting human objects in a relative large ra
 The human body tracker should work properly for single human events, as well as more complicated events when multiple people interact with the door, including but not limited to: two people traversing parallel, traversing sequential but with a narrow distance, traversing in opposite direction, or one person standing still and another pass by. The tracker should not assume that the detected pixel blobs are separated perfectly, and should be able to track two once separate blobs when they merge, as well as assign the correct labels when they split again.
 
 And finally, the time consumption of one single image processing must be constraint within 100ms because the camera runs at 10fps. Considering that other tasks, such as data reading from camera register and publishing MQTT messages, also takes CPU process time, the time window left for detecting and tracking is merely around 50ms.
-%TODO： Add a picture with the steps of the algorithm
+
+An overview of the algorithm is shown in \autoref{fig:algorithm_diagram}.
+\begin{figure}
+  \centering
+  \includegraphics[width=0.8\textwidth]{figures/Program_block_diagram.png}
+  \caption{An overview of the proposed algorithm.}\label{fig:algorithm_diagram}
+\end{figure}
+
 \section{Blob Detection} \label{sec:detect}
 \subsection{Active Pixel Detection}
 Before the actual fore- and background segmentation, an early detection process is conducted on the $8\times8$ coarse image to see whether there is a potential heat source in the camera view. We check if there are at least three pixels having a value $1.5^\circ C$ higher than the room temperature. The parameters are chosen based on the following calculation. When installed at a height of $2.5m$, the Grideye sensor covers an area of about $8m^2$, which is much larger than a human body. However, when a human enters the camera view, the projection of his body on the image is caused by the horizontal plane of the shoulders, which is much higher than the ground and closer to the camera. Assuming the average shoulder height is $1.4m$, the real coverage of the camera is $4m^2$, only half of the ground area that it can cover. We assume the horizontal plane of a human body is not less than $2dm^2$, which amounts to at least three pixels in the image frame. The threshold $1.5^\circ C$ above the room temperature is chosen to filter out the sensor noise, we denote this threshold as $T_{lb}$ (low boundary).
@@ -33,11 +40,10 @@ Therefore, pixels higher than the threshold but with hotter pixels nearby should
   \includegraphics[width=\textwidth]{figures/detect_spatialfilter.eps}
   \caption{After introducing a spatial filter, the region between two objects are no longer marked as occupied.}\label{fig:detectionspatialfilter}
 \end{figure}
-%TODO: 更换图片
 \begin{figure}
   \centering
-  \includegraphics[width=\textwidth]{figures/detect_filterthres.eps}
-  \caption{Only those pixels hotter than the region average are kept. The gray layer is the average filtered image and the colored layer is the original image.}\label{fig:detection3d}
+  \includegraphics[width=\textwidth]{figures/spacefilter.png}
+  \caption{The spacial average filter only keeps those pixels hotter than the region average.}\label{fig:detection3d}
 \end{figure}
 
 Moreover, this method outperforms simply increasing the global threshold because it has a better generalization ability for different body temperature. Though the aforementioned pixel bridge could also be eliminated by increasing the global threshold, we find that the threshold must be set very high to obtain a similar result. \autoref{fig:detectioncompare} shows the result of both method in two real scenarios. The first row shows the same frame in \autoref{fig:detectionspatialfilter}, where a tight global threshold of $Max-1.5\times SD$ turns out to be even better than our proposed method. However, when two human with distinct temperature occur in the same frame, the hotter object raises the global threshold with a higher $Max$ pixel value. The threshold will be too high for the cooler object, and only the hotter object is detected.
